@@ -1,0 +1,307 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  height: 80px;
+  position: absolute;
+  left: 80px;
+  top: 15px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+  min-height: 100px;
+}
+
+.navigation ul li {
+  text-decoration: none;
+  list-style: none;
+  padding: 20px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  position: relative;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  margin-top: 20%;
+  margin-left: 10%;
+  font-family: Reggae One;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: Reggae One;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.Home {
+  margin-top: 80px;
+}
+
+.Home__photo {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin: auto;
+}
+
+.Home p {
+  text-align: center;
+  font-family: Reggae One;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Reggae One;
+  margin-top: 6%;
+  font-style: normal;
+  line-height: 45px;
+}
+
+.aboutme h2, .Projects h2, .Services h2, .Contact h2{
+  text-align: center;
+  margin: 8% auto;
+  font-family: Reggae One;
+}
+
+.aboutme p {
+  text-align: justify;
+  font-size: 20px;
+  width: 70%;
+  margin: auto;
+  font-family: Poppins;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.6em;
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.Projects__imgs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+.Projects__img {
+  width: 20%;
+}
+
+.Projects {
+  margin-top: 20%;
+}
+
+.Project__card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30% auto;
+  width: 70%;
+}
+
+.Project__info h3{
+  font-family: Reggae One;
+  font-size: 25px;
+}
+
+.Project__info h3, p {
+  text-align: center;
+}
+
+.Project__info p, a{
+  font-family: Poppins;
+  font-size: 20px;
+}
+
+.Project__info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto 10%;
+  gap: 20px;
+}
+
+.Services{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+
+.Services p{
+  font-family: Poppins;
+  font-size: 20px;
+  margin-bottom: 4%;
+}
+
+.Services h2{
+  margin-bottom: 2%;
+}
+
+.Contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10% auto;
+width: 70%;
+}
+
+.Contact p{
+  text-align: left;
+  font-family: Poppins;
+  font-size: 20px;
+  margin: 2%;
+ }
+
+ .Contact__Links{
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+   align-items: center;
+   margin-top: 6%;
+ }
+
+ .Contact__Links a{
+  font-size: 30px;
+  font-family: Reggae One; 
+  padding: 0 15px;
+}
+
+.Footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #8AD9F2;
+  height: 200px;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+.navigation{
+  display: none;
+}
+
+.logo{
+  height: 90px;
+  position: static;
+  margin-top: 6%;
+}
+
+.Home p{
+  font-family: Poppins;
+  font-size: 14px;
+}
+
+.Home__photo{
+border-radius: 25%;  
+width: 70%;
+}
+
+.Container{
+  min-height: 90px;
+  margin: 0;
+}
+.main{
+  padding: 0;
+}
+
+.main h2{
+  font-size: 17px;
+  font-family: Poppins;
+  margin-top: 30%;
+  margin-bottom: 2%;
+}
+
+.main p{
+  font-size: 14px;
+}
+
+.main h3{
+  font-size: 18px;
+}
+
+.Project__card{
+  flex-direction: column;
+}
+
+.Projects__imgs{
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10%;
+}
+
+.Projects__img{
+  width: 150px;
+}
+
+.Project__card img{
+width: 150px;
+}
+
+.Services img{
+  width: 150px;
+}
+
+.Contact__Links a{
+  font-size: 10px;
+  color: rgb(17, 0, 255);
+}
+
+}
+
+
