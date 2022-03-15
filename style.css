@@ -128,17 +128,6 @@ body {
   color: #ffffff;
 }
 
-.Projects__imgs {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin: auto;
-}
-
-.Projects__img {
-  width: 20%;
-}
-
 .Projects {
   margin-top: 20%;
 }
@@ -147,7 +136,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 30% auto;
+  margin: 10% auto;
   width: 70%;
 }
 
@@ -277,16 +266,6 @@ width: 70%;
 
 .Project__card{
   flex-direction: column;
-}
-
-.Projects__imgs{
-  flex-direction: column;
-  gap: 15px;
-  margin-top: 10%;
-}
-
-.Projects__img{
-  width: 150px;
 }
 
 .Project__card img{
